@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demoapi
-        image: msrrepo1.azurecr.io/demowebapi
+        image: msrrepo1.azurecr.io/demowebapi:1.0
         ports:
         - containerPort: 80
         - containerPort: 443
